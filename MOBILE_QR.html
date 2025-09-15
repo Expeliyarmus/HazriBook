@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Access QR Code</title>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+            color: #333;
+        }
+        #qrcode {
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+        .url {
+            font-size: 18px;
+            font-weight: bold;
+            color: #667eea;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            word-break: break-all;
+        }
+        .instructions {
+            text-align: left;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .step {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .warning {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📱 Class Photo Attendance</h1>
+        <h2>Scan QR Code on Your Phone</h2>
+        
+        <div id="qrcode"></div>
+        
+        <div class="url">
+            http://192.168.31.12:3000
+        </div>
+        
+        <div class="warning">
+            ⚠️ Make sure your phone is connected to the SAME WiFi network as this computer!
+        </div>
+        
+        <div class="instructions">
+            <h3>📋 Instructions:</h3>
+            <div class="step">1️⃣ Open camera app on your phone</div>
+            <div class="step">2️⃣ Point at the QR code above</div>
+            <div class="step">3️⃣ Tap the notification that appears</div>
+            <div class="step">4️⃣ The app will open in your browser</div>
+            
+            <h3>🚀 Make it an App:</h3>
+            <div class="step">📱 Android: Menu → "Add to Home Screen"</div>
+            <div class="step">📱 iPhone: Share → "Add to Home Screen"</div>
+        </div>
+    </div>
+    
+    <script>
+        new QRCode(document.getElementById("qrcode"), {
+            text: "http://192.168.31.12:3000",
+            width: 256,
+            height: 256,
+            colorDark : "#667eea",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H
+        });
+    </script>
+</body>
+</html>

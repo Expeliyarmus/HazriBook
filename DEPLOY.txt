@@ -1,0 +1,44 @@
+HazriBook Deployment Guide
+
+Quick Deploy Instructions:
+------------------------
+1. Go to https://app.netlify.com/drop
+2. Drag and drop the 'hazribook-deploy.zip' file onto the webpage
+3. Wait for upload to complete (usually takes less than a minute)
+4. Copy the generated URL (looks like https://random-words-123.netlify.app)
+5. Share this URL with your friends!
+
+Notes for Users:
+--------------
+- The app works best in Chrome or Safari on mobile
+- First-time users should allow camera permissions when prompted
+- To add to home screen (recommended):
+
+For iPhone:
+1. Open the app URL in Safari
+2. Tap the Share button (box with arrow)
+3. Scroll down and tap "Add to Home Screen"
+4. Tap "Add"
+
+For Android:
+1. Open the app URL in Chrome
+2. Tap the three dots menu (⋮)
+3. Tap "Add to Home screen"
+4. Tap "Add"
+
+Important Features:
+----------------
+- Works offline after first load
+- Camera works on both front and back cameras
+- All data is stored locally on each device
+- Each teacher can set up their own school and classes
+
+Need Help?
+---------
+If the camera doesn't work:
+1. Make sure you're using HTTPS (the URL should start with https://)
+2. Allow camera permissions when prompted
+3. If using iOS, make sure you're using Safari
+4. If using Android, make sure you're using Chrome
+
+For any other issues, refresh the page or clear the site data and try again.
