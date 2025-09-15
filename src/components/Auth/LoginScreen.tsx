@@ -213,7 +213,7 @@ const LoginScreen: React.FC = () => {
         {/* Footer */}
         <div className="text-center mt-8 text-gray-500 text-sm">
           <p>Built for rural schools with ❤️</p>
-          <p className="mt-1">SIH 2024 Project</p>
+          <p className="mt-1">SIH 2025 Project</p>
         </div>
       </div>
     </div>
