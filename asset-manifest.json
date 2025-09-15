@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HazriBook/static/css/main.6140ad76.css",
+    "main.js": "/HazriBook/static/js/main.bc147dc8.js",
+    "static/js/453.5c9865b5.chunk.js": "/HazriBook/static/js/453.5c9865b5.chunk.js",
+    "index.html": "/HazriBook/index.html",
+    "main.6140ad76.css.map": "/HazriBook/static/css/main.6140ad76.css.map",
+    "main.bc147dc8.js.map": "/HazriBook/static/js/main.bc147dc8.js.map",
+    "453.5c9865b5.chunk.js.map": "/HazriBook/static/js/453.5c9865b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6140ad76.css",
+    "static/js/main.bc147dc8.js"
+  ]
+}
